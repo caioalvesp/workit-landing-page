@@ -1,0 +1,24 @@
+:root {
+  --purple: #24053e;
+  --green: #44ffa1;
+  --light-purple: #584d62;
+  --dark-white: #fcf8ff;
+  --white: #fff;
+
+  --heading-large: 400 80px/80px Fraunces, serif;
+  --heading-medium: 400 56px/64px Fraunces, serif;
+  --heading-small: 400 32px/40px Fraunces, serif;
+}
+
+header {
+  background-color: var(--purple);
+  clip-path: ellipse(99% 99% at top);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+}
