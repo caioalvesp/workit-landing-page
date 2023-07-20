@@ -17,15 +17,17 @@
 
 header {
   background-color: var(--purple);
-  /* clip-path: ellipse(99% 99% at top); */
+  clip-path: ellipse(175% 100% at top);
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 480px;
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 90%;
-  margin: 0 auto;
 }
 
 .apply-link {
@@ -43,6 +45,8 @@ h1 {
   font-size: 50px;
   color: var(--white);
   font-weight: 400;
+  text-align: center;
+  margin-top: 64px;
 }
 
 .btn-learn {
@@ -50,6 +54,7 @@ h1 {
   height: 55px;
   width: 133px;
   margin: 0 auto;
+  margin-top: 40px;
   background-color: var(--green);
   display: flex;
   align-items: center;
@@ -65,5 +70,7 @@ h1 {
 }
 
 .phone {
-  width: 200px;
+  width: 320px;
+  margin-top: 64px;
+  margin-left: 20px;
 }
