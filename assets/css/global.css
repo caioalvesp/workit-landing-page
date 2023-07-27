@@ -47,9 +47,10 @@ h1 {
   font-weight: 400;
   text-align: center;
   margin-top: 64px;
+  letter-spacing: -2px;
 }
 
-.btn-learn {
+.btn-cta {
   display: block;
   height: 55px;
   width: 133px;
@@ -63,7 +64,7 @@ h1 {
   font-weight: 700;
 }
 
-.btn-learn:hover {
+.btn-cta:hover {
   background-color: transparent;
   border: 2px solid var(--green);
   color: var(--green);
@@ -115,4 +116,46 @@ h1 {
   text-align: center;
   font-weight: 400;
   line-height: 28px;
+}
+
+.demo {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.demo img {
+  width: 280px;
+  z-index: -10;
+}
+
+.demo-cta {
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 32px;
+}
+
+.demo-cta h3 {
+  font-family: Fraunces, 'Times New Roman', serif;
+  font-size: 2rem;
+  letter-spacing: -2px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.demo-cta p {
+  font-family: Manrope, Calibri, sans-serif;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.demo-cta .btn-cta {
+  width: 172px;
+  color: var(--purple);
+}
+
+.demo-cta .btn-cta:hover {
+  color: var(--green);
 }
